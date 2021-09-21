@@ -1,0 +1,25 @@
+{
+  "name": "cayenabackend",
+  "version": "1.0.0",
+  "description": "proyecto educativo cayena",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isbemo/CAyENA.git#Backend"
+  },
+  "author": "Leonardo Tafur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isbemo/CAyENA/issues"
+  },
+  "homepage": "https://github.com/isbemo/CAyENA/tree/Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
