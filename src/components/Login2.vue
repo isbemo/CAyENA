@@ -65,16 +65,6 @@
   </div>
 </template>
 
-<!--<script>
-import { MDBInput } from "mdb-vue-ui-kit";
-
-export default {
-  components: {
-    MDBInput,
-  },
-};
-</script>-->
-
 <script>
 
 export default {
