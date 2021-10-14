@@ -5,18 +5,21 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-md-8">
                         <div class="vue-tempalte">
-                            <form>
+                            <form class="rounded shadow-5-strong p-5" style="background-color: rgba(2, 55, 125, 0.25)">
                             <h3 class="text-primary">Reestablecer Contraseña</h3>
-                                <div class="form-outline mb-4">
+                                <div class="form-outline mb-4 border border-light rounded-pill">
                                     <input type="email" id="form1Example1" class="form-control" autocomplete="off"/>
                                     <label class="form-label" for="form1Example1">Correo</label>
                                 </div>
-                                <div class="form-outline mb-4">
+                                <div class="form-outline mb-4 border border-light rounded-pill">
                                     <input type="password" id="form1Example2" class="form-control"/>
                                     <label class="form-label" for="form1Example2">Nueva Contraseña</label>
                                 </div>
-                            <button type="button" class="btn btn-dark btn-lg btn-block mb-3" data-mdb-toggle="modal"
+                            <button type="button" class="btn btn-success btn-lg btn-block mb-3" data-mdb-toggle="modal"
                                 data-mdb-target="#staticBackdrop">Continuar
+                            </button>
+                            <button type="button" @click="volverLogin()" class="btn btn-danger btn-lg btn-block mb-3"
+                                data-mdb-target="#staticBackdrop">Salir
                             </button>
                             <div class="modal fade" id="staticBackdrop" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                 <div class="modal-dialog">

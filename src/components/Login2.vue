@@ -1,30 +1,11 @@
 <template>
-  <div
-    id="intro"
-    class="bg-image shadow-2-strong"
-    type="text/javascript"
-    src="js/mdb.min.js"
-  >
-    <div
-      class="mask d-flex align-items-center h-100"
-      style="background-color: rgba(0, 0, 0, 0.8)"
-    >
+  <div id="intro" class="bg-image shadow-2-strong" type="text/javascript" src="js/mdb.min.js">
+    <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8)">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-5 col-md-8">
-            <form
-              class="rounded shadow-5-strong p-5"
-              style="background-color: rgba(2, 55, 125, 0.25)"
-            >
-              <div
-                class="
-                  d-flex
-                  align-items-start
-                  mb-3
-                  justify-content-evenly
-                  align-items-center
-                "
-              >
+            <form class="rounded shadow-5-strong p-5" style="background-color: rgba(2, 55, 125, 0.25)">
+              <div class="d-flex align-items-start mb-3 justify-content-evenly align-items-center">
                 <figure class="mb-4">
                   <img
                     src="http://1.bp.blogspot.com/_a5mK001oySU/TShQMXc9SsI/AAAAAAAAvUg/5YjnlWXq2T8/s1600/3.png"
