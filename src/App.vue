@@ -9,12 +9,11 @@
 
 <script>
 import Footer from './components/Footer.vue'
-import Fondo from './components/Fondo.vue'
 import Login2 from './components/Login2.vue'
 import Inicio from './components/Inicio.vue'
-import Inscripcion from './components/Inscripcion.vue'
 import Registro from './components/Registro.vue'
 import RestaContra from './components/RestaContra.vue'
+import Inscripcion from './components/Inscripcion.vue'
 
 export default {
   name: 'App',
@@ -24,12 +23,11 @@ export default {
   }),
   components: {
     Footer,
-    Fondo,
     Login2,
     Inicio,
-    Inscripcion,
     Registro,
     RestaContra,
+    Inscripcion,
   }
 };
 </script>
