@@ -25,7 +25,7 @@
                   role="tab"
                   aria-controls="pills-home"
                   aria-selected="true"
-                  >Home
+                  >Datos Personales
                 </button>
               </li>
               <li class="nav-item" role="presentation">
@@ -38,7 +38,7 @@
                   role="tab"
                   aria-controls="pills-profile"
                   aria-selected="false"
-                  >Profile
+                  >Datos Complementarios
                 </button>
               </li>
               <li class="nav-item" role="presentation">
@@ -51,7 +51,7 @@
                   role="tab"
                   aria-controls="pills-contact"
                   aria-selected="false"
-                  >Contact
+                  >Datos de Familiares
                 </button>
               </li>
               <li class="nav-item" role="presentation">
@@ -64,7 +64,7 @@
                   role="tab"
                   aria-controls="pills-contact"
                   aria-selected="false"
-                  >Number
+                  >Datos Escolares
                 </button>
               </li>
             </ul>
