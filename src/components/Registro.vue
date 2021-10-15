@@ -11,7 +11,7 @@
           </nav>
         </div>
       </nav>
-      <h2>Bienvenidos al proceso de registo</h2>
+      <h2>Bienvenidos al proceso de registro</h2>
 
     <div class="container mt-5">
       <form>
